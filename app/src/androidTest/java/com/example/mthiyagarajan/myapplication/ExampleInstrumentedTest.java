@@ -33,4 +33,10 @@ public class ExampleInstrumentedTest {
     	  UiDevice.click();
 
     }
+
+    public void sampleSwipe() {
+
+    	  UiDevice.swipe();
+
+    }
 }
