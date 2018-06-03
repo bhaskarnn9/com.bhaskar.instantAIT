@@ -39,4 +39,10 @@ public class ExampleInstrumentedTest {
     	  UiDevice.swipe();
 
     }
+
+    public void sampleTap() {
+
+    	  UiDevice.tapMidScreen();
+
+    }
 }
