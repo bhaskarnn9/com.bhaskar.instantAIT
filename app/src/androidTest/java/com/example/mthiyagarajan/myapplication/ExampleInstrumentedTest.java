@@ -27,4 +27,10 @@ public class ExampleInstrumentedTest {
 
 
     }
+
+    public void sampleClick() {
+
+    	  UiDevice.click();
+
+    }
 }
