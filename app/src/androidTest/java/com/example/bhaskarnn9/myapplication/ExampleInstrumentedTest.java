@@ -22,7 +22,8 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
-
+        
+        Log.d("DebugTest", "This is a sample log to create a new change");
         assertEquals("com.example.bhaskarnn9.myapplication", appContext.getPackageName());
 
 
